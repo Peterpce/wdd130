@@ -143,3 +143,38 @@ footer {
   height: 30px;
   object-fit: contain;
 }
+
+
+
+
+.contact-info iframe {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ccc;
+}
+
+.employee-profiles {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.employee-profiles img {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.contact-form form {
+  display: grid;
+  gap: 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form fieldset {
+  border: none;
+  padding: 0;
+}
+
